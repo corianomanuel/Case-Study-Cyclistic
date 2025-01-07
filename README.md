@@ -80,7 +80,15 @@ In seguito ad una comprensione delle colonne presenti all'interno della tabella,
 20. Eliminazione eventuali spazi all'inizio o alla fine della stringa: assenti tali osservazioni
 21. Correzione stringhe all'interno delle colonne start_station_name ed end_station_name con spazi inutili
 22. Tra le 163 stazioni visualizzate solamente una volta in start_station_name, tolte quelle che iniziano con Public Rack, vi sono alcune senza tale indicazione e si procede ad un controllo per visionare l'esistenza di eventuali errori di battitura, rimuovendo solo l'osservazione con NEW HASTINGS come start_station_name.
+23. Eliminazione colonne inerenti agli id, alla longitudine e latitudine delle stazioni, poiché ritenute non rilevanti ai fini dell'analisi, consapevole di come un'analisi approfondita, in caso di maggiore tempo a disposizione, avrebbe permesso di ottimizzare ulteriormente la pulizia, analizzando ad esempio la longitudine e la latitudine per confermare l'esattezza del nome delle stazioni.
 
+
+## Analyze Phase
+
+Il processo di analisi prevede le seguenti azioni:
+1. Creazione di nuova colonna in cui inserire il relativo nome del giorno della settimana in cui inizia il servizio di sharing in ogni osservazione rilevata
+2. Creazione di una nuova colonna in cui indicare la parte della giornata in cui avviene l'inizio del noleggio, individuando le seguenti categorie: Night, Morning, Afternoon e Evening.
+3. Creazione di una nuova colonna in cui categorizzare la durata, individuando le seguenti categorie: Very Short, Short, Medium, Long e Very long.
 
 
 
