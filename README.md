@@ -54,3 +54,33 @@ Inoltre è stato calcolato il totale di ogni select count, ottenendo una somma t
 
 Per unire ogni tabella all'interno di un'unica è stata creata una tabella vuota denominata 'alldata_tripdata' in cui sfruttare l'apposita funzione per riempire tale tabella con il risultato della query di unione, ottenendo una tabella con 5.906.269 osservazioni.
 
+
+## Process Phase
+In seguito ad una comprensione delle colonne presenti all'interno della tabella, è iniziato il seguente processo di pulizia:
+
+1. Ricerca di eventuali osservazioni duplicate: Assenza di osservazioni duplicate
+2. Ricerca di valori NULL all'interno della colonna ride_id: Assenza di valori NULL
+3. Ricerca di valori duplicati all'interno della colonna ride_id: Rilevazione di 211 righe con ride_id duplicati
+4. Creazione nuova tabella senza le righe con ride_id duplicati
+5. Controllo che ogni stringa all'interno di ride_id sia di 16 caratteri: Assenza stringhe con numero di caratteri diverso da 16
+6. Ricerca di valori NULL all'interno della colonna rideable_type: Assenza di valori NULL
+7. Conversione started_at ed ended_at allo stesso formato (alcuni presentavano anche i millisecondi)
+8. Ricerca di valori NULL all'interno delle colonne started_at ed ended_at
+9. Verifica presenza di osservazioni con stessi valori nella combinazione delle seguenti colonne started_at, ended_at, start_station_name ed ended_station_name: 51 duplicati individuati
+10. Rimozione dei duplicati individuati nella combinazione designata
+11. Rimozione osservazioni con valori NULL in start_station_name e start_station_id
+12. Rimozione osservazioni con valori NULL in end_station_name e end_station_id
+13. Creazione nuova colonna in cui calcolare la durata del viaggio in minuti
+14. Individuazione osservazioni con durata decisamente troppo bassa e sospetta: 27 osservazioni con durata negativa
+15. Aggiornamento tabella con solo osservazioni con durata positiva
+16. Analisi e intrepretazione osservazioni di durata pari ad 1 minuto: rimozione osservazioni con stazioni di partenza uguali a quelle di arrivo
+17. Rimozione anche osservazioni con durata pari a 2 minuti e con stazioni di partenza uguali a quelle di arrivo
+18. Rimozione osservazioni con durata maggiore a 1440 minuti (1 giorno)
+19. Analisi sui nomi delle stazioni, notando come ci siano delle stazioni il cui nome è presente pochissime volte nell'arco di un anno, da cui magari dedurre l'inesatta scrittura all'interno del database: esistono 163 stazioni citate solamente una volta all'interno di tale database; tra queste sono presenti diverse stazioni che iniziano per Public Rack, seguite da un trattino e da un nome di una stazione. Tramite informazione esterna, si scopre come Public Rack sia una rastrelliera pubblica installata in città dove le persone possono parcheggiare e assicurare le proprie biciclette. Non è una stazione ufficiale di Cyclistic, ma un'opzione per il parcheggio della bici.
+20. Eliminazione eventuali spazi all'inizio o alla fine della stringa: assenti tali osservazioni
+21. Correzione stringhe all'interno delle colonne start_station_name ed end_station_name con spazi inutili
+22. Tra le 163 stazioni visualizzate solamente una volta in start_station_name, tolte quelle che iniziano con Public Rack, vi sono alcune senza tale indicazione e si procede ad un controllo per visionare l'esistenza di eventuali errori di battitura, rimuovendo solo l'osservazione con NEW HASTINGS come start_station_name.
+
+
+
+
