@@ -86,9 +86,43 @@ In seguito ad una comprensione delle colonne presenti all'interno della tabella,
 ## Analyze Phase
 
 Il processo di analisi prevede le seguenti azioni:
-1. Creazione di nuova colonna in cui inserire il relativo nome del giorno della settimana in cui inizia il servizio di sharing in ogni osservazione rilevata
-2. Creazione di una nuova colonna in cui indicare la parte della giornata in cui avviene l'inizio del noleggio, individuando le seguenti categorie: Night, Morning, Afternoon e Evening.
-3. Creazione di una nuova colonna in cui categorizzare la durata, individuando le seguenti categorie: Very Short, Short, Medium, Long e Very long.
+1. Creazione colonna in cui inserire il relativo nome del giorno della settimana in cui inizia il servizio di sharing in ogni osservazione rilevata
+2. Creazione colonna in cui indicare la parte della giornata in cui avviene l'inizio del noleggio, individuando le seguenti categorie: Night, Morning, Afternoon e Evening.
+3. Creazione colonna in cui categorizzare la durata, individuando le seguenti categorie: Very Short, Short, Medium, Long e Very long.
+
+Il risultato finale viene scaricato in formato .csv e caricato all'interno di Tableau Public per iniziare la vera e propria analisi.
+
+Inizialmente si cerca di comprendere a livello generale il numero di viaggi effettuati nell'arco di un anno da parte delle due tipologie di utenti, approfondendo anche la tipologia di mezzo utilizzata.
+
+![image](https://github.com/user-attachments/assets/c64cc31d-a9ee-45de-bc70-f3feb0e5bdde)
+
+Sulla base di ciò, si effettua un approfondimento, per comprendere come sono distribuiti tali viaggi durante i 7 giorni della settimana.
+
+![image](https://github.com/user-attachments/assets/061814b8-43f3-49e6-ace3-744ca9f70f9a)
+
+![image](https://github.com/user-attachments/assets/3a86cec2-c7ef-4477-9f38-6fd68850a87b)
+
+Non notando alcuna rilevanza con la tipologia di mezzo, non si considera più tale informazione. Successivamente si approfondisce la durata tipica di noleggio da parte di ciascuna tipologia di utente, con la consapevolezza come da essa comunque non si possa dedurre l'effettiva distanza percorsa da parte dell'utente, a causa dell'assenza di informazioni sui km esattamente percorsi, non ritenendo sufficiente considerare la distanza tra la stazione di partenza e di consegna. A tale scopo si preferisce utilizzare le categorie di durata precedentemente assegnate.
+
+![image](https://github.com/user-attachments/assets/1912b04d-ff6b-4246-a8f3-55285059a529)
+
+![image](https://github.com/user-attachments/assets/ae47e35e-a5d3-4804-8109-ee82cc84e586)
+
+
+Terminata l'analisi della durata tipica, si passa ad un approfondimento inerente alla parte della giornata in cui inizia il noleggio.
+
+![image](https://github.com/user-attachments/assets/f024fe79-16b1-4b2d-8f69-16359cc57518)
+
+Comprese tali tendenze comportamentali, si passa ad un'analisi del comportamento nel corso dei mesi.
+
+![image](https://github.com/user-attachments/assets/94ac7a38-0349-4d17-b869-0ed0c2e09e8e)
+
+Su cui effettuare successivamente un approfondimento in relazione dei giorni della settimana
+
+![Foglio 9](https://github.com/user-attachments/assets/f6e35ca8-53b6-41d6-8209-13ab88798d6d)
+
+
+
 
 
 
