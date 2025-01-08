@@ -121,7 +121,7 @@ Su cui effettuare successivamente un approfondimento in relazione dei giorni del
 
 ![Foglio 9](https://github.com/user-attachments/assets/f6e35ca8-53b6-41d6-8209-13ab88798d6d)
 
-Infine, si conclude tale generale analisi individuando quali sono le 20 stazioni più utilizzate sia come stazioni di partenza che come stazioni di deposito.
+Infine, si conclude tale generale analisi individuando quali siano le 20 stazioni più utilizzate sia come stazioni di partenza che come stazioni di deposito.
 
 ![Foglio 11](https://github.com/user-attachments/assets/a12ffd7a-51f6-4d63-974a-481bf768a554)
 
