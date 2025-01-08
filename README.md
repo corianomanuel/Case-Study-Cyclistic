@@ -92,7 +92,7 @@ Il processo di analisi prevede le seguenti azioni:
 
 Il risultato finale viene scaricato in formato .csv e caricato all'interno di Tableau Public per iniziare la vera e propria analisi.
 
-Inizialmente si cerca di comprendere a livello generale il numero di viaggi effettuati nell'arco di un anno da parte delle due tipologie di utenti, approfondendo anche la tipologia di mezzo utilizzata.
+Inizialmente si cerca di comprendere a livello generale il numero di viaggi effettuati nell'arco di un anno da parte delle due tipologie di utente, approfondendo anche la tipologia di mezzo utilizzata.
 
 ![image](https://github.com/user-attachments/assets/c64cc31d-a9ee-45de-bc70-f3feb0e5bdde)
 
