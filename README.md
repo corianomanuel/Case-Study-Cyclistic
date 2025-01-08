@@ -118,16 +118,15 @@ Per una maggiore comprensione, viene analizzata ogni parte della giornata in rel
 
 ![image](https://github.com/user-attachments/assets/0e3bfef9-a2d7-440d-8318-3bc35606ce59)
 
-Successivamente si approfondisce la durata tipica di noleggio da parte di ciascuna tipologia di utente, con la consapevolezza che da essa comunque non si possa dedurre l'effettiva distanza percorsa da parte dell'utente, a causa dell'assenza di informazioni sui km esattamente percorsi, non ritenendo sufficiente considerare la distanza tra la stazione di partenza e di consegna. A tale scopo dunque si preferisce utilizzare le categorie di durata precedentemente assegnate: Very Short (< 5 min), Short (tra 6 e 15 min), Medium (tra 16 e 30), Long (tra 31 e 60) e Very Long (>60).
+Successivamente si approfondisce la durata tipica di noleggio da parte di ciascuna tipologia di utente, con la consapevolezza che da essa comunque non si possa dedurre l'effettiva distanza percorsa da parte dell'utente, a causa dell'assenza di informazioni sui km esattamente percorsi, non ritenendo sufficiente considerare la distanza tra la stazione di partenza e di consegna.
 
-![image](https://github.com/user-attachments/assets/1912b04d-ff6b-4246-a8f3-55285059a529)
+Inizialmente vengono calcolata la media delle corse.
 
-![image](https://github.com/user-attachments/assets/ae47e35e-a5d3-4804-8109-ee82cc84e586)
+![image](https://github.com/user-attachments/assets/26d9fca7-9a17-4919-9504-c9bd35b11b36)
 
+Successivamente si effettua un approfondimento, sfruttando le categorie di durata precedentemente assegnate per dare una spiegazione alle medie individuate: Very Short (< 5 min), Short (tra 6 e 15 min), Medium (tra 16 e 30), Long (tra 31 e 60) e Very Long (>60).
 
-
-
-
+![image](https://github.com/user-attachments/assets/b963433a-5930-4b79-a1c4-3a25510006f2)
 
 
 Infine, si conclude tale generale analisi individuando quali siano le 20 stazioni più utilizzate sia come stazioni di partenza che come stazioni di deposito.
