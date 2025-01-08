@@ -90,11 +90,13 @@ Il processo di analisi prevede le seguenti azioni:
 2. Creazione colonna in cui indicare la parte della giornata in cui avviene l'inizio del noleggio, individuando le seguenti categorie: Night, Morning, Afternoon e Evening.
 3. Creazione colonna in cui categorizzare la durata, individuando le seguenti categorie: Very Short, Short, Medium, Long e Very long.
 
-Il risultato finale viene scaricato in formato .csv e caricato all'interno di Tableau Public per iniziare la vera e propria analisi.
+Il risultato finale viene scaricato in formato .csv e caricato all'interno di Power BI Desktop per iniziare la vera e propria analisi.
+Durante il controllo in seguito al caricamento, si controlla come le colonne started_at ed ended_at siano considerate stringhe a causa della presenza di UTC dopo la data e l'orario all'interno di ogni valore. Per tal motivo si procede tramite Power Query a dividere ciascuna colonna in base dal primo delimitatore *spazio* a partire da destra, con conseguente eliminazione della colonna contenente solo UTC come valore. In autonomia Power BI riconosce immediatamente il formato corretto.
 
-Inizialmente si cerca di comprendere a livello generale il numero di viaggi effettuati nell'arco di un anno da parte delle due tipologie di utente, approfondendo anche la tipologia di mezzo utilizzata.
+Inizialmente si cerca di comprendere a livello generale il numero di corse effettuate nell'arco di un anno da parte delle due tipologie di utente, approfondendo anche la tipologia di mezzo utilizzata.
 
-![image](https://github.com/user-attachments/assets/c64cc31d-a9ee-45de-bc70-f3feb0e5bdde)
+![image](https://github.com/user-attachments/assets/ed6c4c2a-64d3-40a5-8e52-31c7072bddca)
+
 
 Sulla base di ciò, si effettua un approfondimento, per comprendere come sono distribuiti tali viaggi durante i 7 giorni della settimana.
 
