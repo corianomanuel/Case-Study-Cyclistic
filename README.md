@@ -97,31 +97,38 @@ Inizialmente si cerca di comprendere a livello generale il numero di corse effet
 
 ![image](https://github.com/user-attachments/assets/ed6c4c2a-64d3-40a5-8e52-31c7072bddca)
 
+L'anno in questione viene analizzato ulteriormente con l'obiettivo di comprendere la distribuzione del numero di corse effettuate nei diversi mesi, confrontando ulteriormente la differenza di approccio ai diversi mesi da parte delle due tipologie di utenti.
 
-Sulla base di ciò, si effettua un approfondimento, per comprendere come sono distribuiti tali viaggi durante i 7 giorni della settimana.
+![image](https://github.com/user-attachments/assets/1cb79fca-c156-40c3-8afa-abc45cc7f3a1)
 
-![image](https://github.com/user-attachments/assets/061814b8-43f3-49e6-ace3-744ca9f70f9a)
 
-![image](https://github.com/user-attachments/assets/3a86cec2-c7ef-4477-9f38-6fd68850a87b)
+Successivamente, si verifica la distribuzione generale del numero di corse durante la settimana, con conseguente approfondimento su tale distribuzione in base alla tipologia di utente. Non notando alcuna rilevanza con la tipologia di mezzo, non si considera più tale informazione.
 
-Non notando alcuna rilevanza con la tipologia di mezzo, non si considera più tale informazione. Successivamente si approfondisce la durata tipica di noleggio da parte di ciascuna tipologia di utente, con la consapevolezza come da essa comunque non si possa dedurre l'effettiva distanza percorsa da parte dell'utente, a causa dell'assenza di informazioni sui km esattamente percorsi, non ritenendo sufficiente considerare la distanza tra la stazione di partenza e di consegna. A tale scopo si preferisce utilizzare le categorie di durata precedentemente assegnate.
+![image](https://github.com/user-attachments/assets/fcceea5b-5746-4804-ae19-044708880ec4)
+
+Viene sfruttato il potenziale di Tableau per approfondire ulteriormente il numero di corse durante i giorni della settimana nel corso dell'anno.
+
+![Foglio 9](https://github.com/user-attachments/assets/f6e35ca8-53b6-41d6-8209-13ab88798d6d)
+
+Si entra ulteriormente in profondità tramite approfondimento inerente alla parte della giornata in cui inizia il noleggio, sfruttando la divisione della giornata nelle categorie: Morning(6.00-11.59), Afternoon(12.00-17.59), Evening(18.00-23.59) e Night (0.00-5.59).
+
+![image](https://github.com/user-attachments/assets/ca82c3c2-2e55-435c-85be-4ed5604a998b)
+
+Per una maggiore comprensione, viene analizzata ogni parte della giornata in relazione al giorno della settimana.
+
+![image](https://github.com/user-attachments/assets/0e3bfef9-a2d7-440d-8318-3bc35606ce59)
+
+Successivamente si approfondisce la durata tipica di noleggio da parte di ciascuna tipologia di utente, con la consapevolezza che da essa comunque non si possa dedurre l'effettiva distanza percorsa da parte dell'utente, a causa dell'assenza di informazioni sui km esattamente percorsi, non ritenendo sufficiente considerare la distanza tra la stazione di partenza e di consegna. A tale scopo dunque si preferisce utilizzare le categorie di durata precedentemente assegnate: Very Short (< 5 min), Short (tra 6 e 15 min), Medium (tra 16 e 30), Long (tra 31 e 60) e Very Long (>60).
 
 ![image](https://github.com/user-attachments/assets/1912b04d-ff6b-4246-a8f3-55285059a529)
 
 ![image](https://github.com/user-attachments/assets/ae47e35e-a5d3-4804-8109-ee82cc84e586)
 
 
-Terminata l'analisi della durata tipica, si passa ad un approfondimento inerente alla parte della giornata in cui inizia il noleggio.
 
-![image](https://github.com/user-attachments/assets/f024fe79-16b1-4b2d-8f69-16359cc57518)
 
-Comprese tali tendenze comportamentali, si passa ad un'analisi del comportamento nel corso dei mesi.
 
-![image](https://github.com/user-attachments/assets/94ac7a38-0349-4d17-b869-0ed0c2e09e8e)
 
-Su cui effettuare successivamente un approfondimento in relazione dei giorni della settimana
-
-![Foglio 9](https://github.com/user-attachments/assets/f6e35ca8-53b6-41d6-8209-13ab88798d6d)
 
 Infine, si conclude tale generale analisi individuando quali siano le 20 stazioni più utilizzate sia come stazioni di partenza che come stazioni di deposito.
 
