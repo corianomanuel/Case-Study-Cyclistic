@@ -120,7 +120,7 @@ Per una maggiore comprensione, viene analizzata ogni parte della giornata in rel
 
 Successivamente si approfondisce la durata tipica di noleggio da parte di ciascuna tipologia di utente, con la consapevolezza che da essa comunque non si possa dedurre l'effettiva distanza percorsa da parte dell'utente, a causa dell'assenza di informazioni sui km esattamente percorsi, non ritenendo sufficiente considerare la distanza tra la stazione di partenza e di consegna.
 
-Inizialmente vengono calcolata la media delle corse.
+Inizialmente vengono calcolate le medie delle corse.
 
 ![image](https://github.com/user-attachments/assets/26d9fca7-9a17-4919-9504-c9bd35b11b36)
 
