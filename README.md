@@ -156,3 +156,23 @@ Negli ultimi 12 mesi, oltre un terzo delle corse totali è stato effettuato da u
 
 ## Act Phase
 
+***Conclusioni e Spunti Strategici***
+*Stagionalità e Periodi Freddi*: Gli utenti occasionali mostrano scarso interesse per il servizio nei mesi più freddi dell’anno.
+- Strategia: Creare incentivi specifici per l’uso del bike-sharing in inverno (es. sconti, promozioni o eventi invernali) per bilanciare il numero di corse rispetto ai mesi caldi e incoraggiare la sottoscrizione di abbonamenti annuali.
+
+*Distribuzione Settimanale*: Gli utenti occasionali preferiscono utilizzare il servizio durante il fine settimana, con un picco nei periodi estivi.
+- Strategia: Introdurre campagne mirate ai giorni lavorativi (es. sconti per spostamenti casa-lavoro o partnership con aziende) per incrementare l’uso del servizio nei giorni feriali e incentivare la conversione in membri annuali.
+
+*Distribuzione Giornaliera*: Gli utenti occasionali utilizzano il servizio prevalentemente nel pomeriggio, con scarso interesse per le ore mattutine.
+- Strategia: Promuovere iniziative che incentivino l’uso al mattino (es. sconti mattutini, eventi o premi per chi usa il servizio prima delle 10:00), favorendo una distribuzione più uniforme durante la giornata.
+
+*Durata delle Corse*: Gli utenti occasionali tendono ad evitare il servizio per corse di breve durata (inferiori a 6 minuti).
+- Strategia: Evidenziare la convenienza del bike-sharing per brevi spostamenti attraverso messaggi pubblicitari mirati o pacchetti promozionali specifici (es. tariffe agevolate per corse brevi).
+
+
+
+A livello generale l’analisi suggerisce come gli utenti occasionali possano essere incentivati a sottoscrivere abbonamenti annuali attraverso:
+- Incentivi stagionali: Offerte per rendere il servizio attraente anche nei periodi meno frequentati.
+- Promozioni mirate: Campagne che affrontino specifici comportamenti, come l’uso nei giorni lavorativi o nelle fasce orarie meno popolari.
+- Messaggi personalizzati: Comunicazioni che enfatizzino i vantaggi di un utilizzo continuativo e diversificato del servizio, specialmente in ottica ambientale.
+
