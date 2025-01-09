@@ -151,7 +151,7 @@ Negli ultimi 12 mesi, oltre un terzo delle corse totali è stato effettuato da u
 *Durata delle corse*:
 - I membri Cyclistic preferiscono usufruire di tale servizio per corse inferiori ai 15 minuti, con una media di durata della corsa pari a 12 minuti.
 - Gli utenti occasionali preferiscono usufruire di tale servizio per corse superiori ai 6 minuti, con una media di durata della corsa pari a 24 minuti.
-- Entrambe le tipologie vedono un aumento della media di fruizione nei fine settimana.
+- Entrambe le tipologie vedono un aumento della media di fruizione nei fine settimana, suggerendo un utilizzo più orientato al tempo libero rispetto agli spostamenti quotidiani.
 
 
 ## Act Phase
