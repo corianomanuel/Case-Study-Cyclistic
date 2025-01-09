@@ -129,12 +129,30 @@ Successivamente si effettua un approfondimento, sfruttando le categorie di durat
 ![image](https://github.com/user-attachments/assets/b963433a-5930-4b79-a1c4-3a25510006f2)
 
 
-Infine, si conclude tale generale analisi individuando quali siano le 20 stazioni più utilizzate sia come stazioni di partenza che come stazioni di deposito.
+## Share Phase
 
-![Foglio 11](https://github.com/user-attachments/assets/a12ffd7a-51f6-4d63-974a-481bf768a554)
+#### Risultati dell'analisi:
+*Contributo degli utenti occasionali*:
+Negli ultimi 12 mesi, oltre un terzo delle corse totali è stato effettuato da utenti occasionali, sottolineando il loro contributo significativo al servizio di bike-sharing Cyclistic.
 
-![Foglio 12](https://github.com/user-attachments/assets/2c5ccd9d-9bc0-4857-a4c5-ccf4c5f159bf)
+*Andamento stagionale e analisi comparativa*:
+- L'andamento del numero di corse è simile per entrambe le categorie di utenti, con una netta diminuzione nei mesi invernali. Ad esempio, nel mese di gennaio, gli utenti occasionali hanno effettuato appena 17.000 corse, rispetto alle 90.000 corse registrate dai membri annuali.
+- Con l'arrivo della tarda primavera e dei mesi estivi, l'uso del servizio cresce in modo marcato, raggiungendo il picco in estate. In questo periodo, i membri Cyclistic superano quota 300.000 corse mensili, mentre gli utenti occasionali oltrepassano le 200.000 corse.
+
+*Andamento settimanale e analisi comparativa*:
+- Differenza comportamentale individuata nella distribuzione media delle corse nell'arco della settimana, con i membri Cyclistic principalmente abituati ad usufruire maggiormente del servizio di bike-sharing durante i giorni tipicamente lavorativi mentre gli utenti occasionali particolarmente abituati ad usufruire di tale servizio maggiormente durante il fine settimana
+- Approfondimento: nei mesi più caldi dell’anno, questa tendenza è ulteriormente amplificata, con un sorprendente sorpasso del numero di corse effettuate dagli utenti occasionali durante il fine settimana rispetto ai membri Cyclistic.
+
+*Andamento giornaliero e analisi comparativa*:
+- Il numero di corse durante il singolo giorno segue un andamento analogo per entrambe le tipologie di utenti, con una maggiore concentrazione nel pomeriggio.
+- Gli utenti occasionali mostrano un interesse limitato nell’utilizzo del servizio durante le ore del mattino.
+- Approfondimento: Analizzando i singoli giorni della settimana, emerge l’influenza del contesto temporale sulle abitudini di utilizzo. Durante il fine settimana, gli utenti occasionali incrementano significativamente l’uso del servizio nelle fasce mattutina, pomeridiana e serale. Al contrario, i membri Cyclistic registrano un calo di utilizzo nelle stesse fasce orarie rispetto ai giorni lavorativi.
+
+*Durata delle corse*:
+- I membri Cyclistic preferiscono usufruire di tale servizio per corse inferiori ai 15 minuti, con una media di durata della corsa pari a 12 minuti.
+- Gli utenti occasionali preferiscono usufruire di tale servizio per corse superiori ai 6 minuti, con una media di durata della corsa pari a 24 minuti.
+- Entrambe le tipologie vedono un aumento della media di fruizione nei fine settimana.
 
 
-
+## Act Phase
 
