@@ -157,6 +157,7 @@ Negli ultimi 12 mesi, oltre un terzo delle corse totali è stato effettuato da u
 ## Act Phase
 
 ***Conclusioni e Spunti Strategici***
+
 *Stagionalità e Periodi Freddi*: Gli utenti occasionali mostrano scarso interesse per il servizio nei mesi più freddi dell’anno.
 - Strategia: Creare incentivi specifici per l’uso del bike-sharing in inverno (es. sconti, promozioni o eventi invernali) per bilanciare il numero di corse rispetto ai mesi caldi e incoraggiare la sottoscrizione di abbonamenti annuali.
 
