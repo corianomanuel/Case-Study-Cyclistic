@@ -1,3 +1,5 @@
+-- In ogni operazione sulle tabelle è stato preferito sfruttare la funzionalità di BigQuery di trasferire il risultato all'interno di una tabella apposita
+
 -- Controllo presenza di osservazioni duplicate
 SELECT ride_id,
 rideable_type,
