@@ -1,29 +1,35 @@
--- Creazione tabella unica di maggio 2024
-SELECT  * FROM `myfirstcasestudy-446813.Cyclistic.2024_05_tripdata_1` 
+-- Creazione tabella unica di maggio 2024 unendo le due tabelle inerenti a maggio 2024 / operazione ripetuta per ogni mensilità > 100mb
+CREATE TABLE `myfirstcasestudy-446813.Cyclistic.mag_24` AS
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_05_tripdata_1`
 UNION ALL
 SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_05_tripdata_2`
 
+-- Rimozione tabelle di comodità
+DROP TABLE `myfirstcasestudy-446813.Cyclistic.2024_05_tripdata_1`
+DROP TABLE `myfirstcasestudy-446813.Cyclistic.2024_05_tripdata_2`
+
 -- Creazione tabella unica dell'interno anno preso in considerazione
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2023_12_tripdata`
+CREATE TABLE `myfirstcasestudy-446813.Cyclistic.alldata` AS
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.dic_23`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_01_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.gen_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_02_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.feb_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_03_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.mar_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_04_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.apr_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_05_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.mag_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_06_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.giu_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_07_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.lug_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_08_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.ago_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_09_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.set_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_10_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.ott_24`
 UNION ALL
-SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_11_tripdata`
+SELECT * FROM `myfirstcasestudy-446813.Cyclistic.nov_24`
