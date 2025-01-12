@@ -38,7 +38,7 @@ Sulla base di tali informazioni, si vogliono utilizzare i dati storici per compr
 
 ## Prepare Phase
 
-Per l'esecuzione dell'esercizio, Google mette a disposizione un [link](https://divvy-tripdata.s3.amazonaws.com/index.html per scaricare i dati necessari all'esecuzione dell'analisi, i quali sono forniti da Motivate International Inc., una fonte rispettata nel settore. Tali file presentano un nome diverso poiché Cyclistic è un'azienda immaginaria, ma nonostante ciò risultano comunque appropriati alla risoluzione del caso aziendale.
+Per l'esecuzione dell'esercizio, Google mette a disposizione del [link](https://divvy-tripdata.s3.amazonaws.com/index.html) per scaricare i dati necessari all'esecuzione dell'analisi, i quali sono forniti da Motivate International Inc., una fonte rispettata nel settore. Tali file presentano un nome diverso poiché Cyclistic è un'azienda immaginaria, ma nonostante ciò risultano comunque appropriati alla risoluzione del caso aziendale.
 
 Per questioni legate alla privacy dei dati non è possibile utilizzare le informazioni personali degli utenti, garantendo l'impossibilità di una loro identificazione. Di conseguenza, non sarà possibile effettuare qualsiasi collegamento ai loro numeri di carta di credito, i quali consentirebbero, ad esempio, di comprendere se i rider occasionali vivono nell'area di servizio o se nel tempo hanno effettuato molteplici acquisti di singoli pass. Ciò rende l'analisi puramente comportamentale, con conseguente assenza di bias nei dati, proprio perchè si tratta di un insieme di dati oggettivi.
 
