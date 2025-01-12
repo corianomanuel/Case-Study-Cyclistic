@@ -1,5 +1,6 @@
+-- Ad ogni operazione indicata è stato preferito sfruttare la funzionalità di BigQuery di trasferire il risultato all'interno di una tabella apposita
+
 -- Creazione tabella unica di maggio 2024 unendo le due tabelle inerenti a maggio 2024 / operazione ripetuta per ogni mensilità > 100mb
-CREATE TABLE `myfirstcasestudy-446813.Cyclistic.mag_24` AS
 SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_05_tripdata_1`
 UNION ALL
 SELECT * FROM `myfirstcasestudy-446813.Cyclistic.2024_05_tripdata_2`
