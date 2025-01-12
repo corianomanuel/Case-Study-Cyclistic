@@ -1,3 +1,5 @@
+-- Ad ogni operazione indicata è stato preferito sfruttare la funzionalità di BigQuery di trasferire il risultato all'interno di una tabella apposita
+
 -- Creazione colonna con nome del giorno della settimana associato al giorno di inizio del servizio di sharing
 SELECT
     ride_id,
